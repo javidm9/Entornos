@@ -11,7 +11,6 @@
         <artifactId>fibonacci</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
-```
 </dependencies>
 ```
 
@@ -20,6 +19,7 @@ Es el momento de compilar y ejecutar el proyecto,  y comprobar que funciona corr
 4. Creamos un nuevo proyecto "HelloWorldPdf" del grupo "es.iessoterohernandez.daw.endes" con una clase que utilice la librería pdf de iText.
 Para usar iText añadimos la siguiente dependencia al pom.xml:
 
+```xml
 <dependencies>
     <dependency>
         <groupId>com.itextpdf</groupId>
@@ -27,5 +27,6 @@ Para usar iText añadimos la siguiente dependencia al pom.xml:
         <version>5.5.13.4</version>
     </dependency>
 </dependencies>
+```
 
 La clase principal del proyecto crea y escribe en un archivo PDF llamado HelloWorld.pdf. Tras la compilación y ejecución, el PDF fue generado correctamente, demostrando la integración exitosa de iText.
