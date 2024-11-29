@@ -4,13 +4,16 @@
 
 3. En tercer lugar, para instalar el proyecto en el repositorio local, accedemos de nuevo a la consola y se utiliza el comando mvn install. Para utilizar el artefacto que hemos creado iniciaremos un nuevo proyecto siguiendo los mismos pasos de antes. En este caso se llamará fibonacciMain y contendrá una clase principal. En el pom.xml añadimos la siguiente dependencia:
 
+```xml
 <dependencies>
     <dependency>
         <groupId>es.iessoterohernandez.daw.endes</groupId>
         <artifactId>fibonacci</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
+```
 </dependencies>
+```
 
 Es el momento de compilar y ejecutar el proyecto,  y comprobar que funciona correctamente.
 
